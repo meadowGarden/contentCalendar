@@ -1,0 +1,15 @@
+
+
+### create new Content
+POST http://localhost:8080/api/content
+Content-Type: application/json
+{
+    "id":2,
+    "title":"my second blog post",
+    "desc":"my second blog post, ot",
+    "status":"IDEA",
+    "contentType":"ARTICLE",
+    "dataCreated":"2023-12-18T11:19:25.812299489",
+    "dataUpdated":null,
+    "url":""
+}
